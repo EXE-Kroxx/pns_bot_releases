@@ -4,34 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Патчноты</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        h3 {
-            color: #333;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        li {
-            margin: 5px 0;
-        }
-        .version {
-            margin-top: 20px;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .update, .fix {
-            margin-left: 20px;
-        }
-    </style>
+<style>
+    /* Основной стиль страницы */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f0f0f0; /* Светлый фон для тела */
+        color: #333; /* Тёмный текст */
+    }
+
+    /* Заголовок первого уровня */
+    h1 {
+        text-align: center;
+        color: #0078D4; /* Светло-синий цвет, похожий на кнопки */
+    }
+
+    /* Заголовок третьего уровня */
+    h3 {
+        color: #0078D4; /* Светло-синий цвет */
+    }
+
+    /* Стили для списков */
+    ul {
+        margin-left: 20px;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+
+    /* Стиль для блока с версией */
+    .version {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #d3f2e7; /* Светлый фон для блока с версией */
+        border: 1px solid #b6e3d5; /* Зеленая рамка */
+    }
+
+    /* Стили для обновлений и исправлений */
+    .update, .fix {
+        margin-left: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #e5f9fc; /* Светло-голубой фон для обновлений */
+    }
+
+    /* Стили для кнопок и ссылок */
+    button, a {
+        color: #0078D4; /* Цвет текста для кнопок и ссылок */
+        font-weight: bold;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover, a:hover {
+        color: #005f99; /* Тёмно-синий цвет при наведении */
+    }
+
+    /* Стили для активных ссылок */
+    a:active {
+        color: #005f99;
+    }
+
+    /* Стили для ссылок, которые являются заголовками */
+    .link-header {
+        color: #0078D4;
+        font-size: 1.2em;
+        text-decoration: underline;
+    }
+
+    /* Общий стиль для всех блоков с обновлениями */
+    .update, .fix {
+        background-color: #f1f8f9;
+        border-left: 5px solid #0078D4;
+        padding-left: 10px;
+    }
+</style>
+
 </head>
 <body>
 
